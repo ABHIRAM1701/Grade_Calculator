@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Calculator</title>
+    <link rel="stylesheet" href="grade.css">
+</head>
+<body>
+   <div class="heading">
+       You  can  Get  Your  Grade  Here ! 
+   </div> 
+   <div class="container">
+      <P id="subname">MATHS:</P><input type="text" class="box" id="box1" placeholder="Marks attained in Maths" required>
+      <P id="subname">PHYSICS:</P><input type="text" class="box" id="box2" placeholder="Marks attained in Physics" required>
+      <P id="subname">CHEMISTRY:</P><input type="text" class="box" id="box3" placeholder="Marks attained in Chemistry" required>
+      <P id="subname">BIOLOGY:</P><input type="text" class="box" id="box4" placeholder="Marks attained in Biology" required>
+      <P id="subname">ENGLISH:</P><input type="text" class="box" id="box5" placeholder="Marks attained in English"required>
+     <input type="button" class="button" value="SUBMIT" onclick="grade()">
+   </div>
+   <div class="container2">
+       <h3 id="stats">Enter yours marks and Submit to <br>see Your Stats ! </h3>
+       <p> <pre id="yourdata"></pre> </p>
+   </div>
+   <script src="grade.js"></script>
+</body>
+</html>

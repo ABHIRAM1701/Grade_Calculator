@@ -1,0 +1,91 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(28, 7, 77);
+}
+/* html{
+    background:linear-gradient(black 50%,rgb(43, 56, 175));
+} */
+
+.heading{
+    font-size: 50px;
+    font-family: algerian;
+    background: linear-gradient(rgb(248, 246, 250),rgb(89, 89, 230));
+    text-align: center;
+    margin-top: 50px;
+    word-spacing: 4px;
+}
+.container{
+    height: 520px;
+    width: 400px;
+    background:linear-gradient(rgb(36, 116, 153)30%,rgb(48, 28, 102));
+    margin-left: 200px;
+    margin-top: 50px;
+    padding-left: 30px;
+    padding-top: 10px;
+    border-radius: 10px;
+    
+}
+.form{
+    background-color:black ;
+    height:200px;
+    width: 300px;
+   
+   
+}
+#subname{
+    color: blue;
+    font-size: 22px;
+    font-family: arialblack;
+    color: rgb(247, 243, 243);
+    line-height: 4.5px;
+}
+.box{
+    height: 35px;
+    width: 350px;
+    border-radius: 10px;
+    border-width: 3px;
+    margin-top: -5px ;
+    font-size: 20px;
+}
+.button{
+    color: rgb(19, 17, 17);
+    height: 50px;
+    width: 200px;
+    border-radius: 10px;
+    border-width: 4px;
+    margin-top: 20px;
+    margin-left: 80px;
+    font-size: 20px;
+    font-family: cooper black;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(180, 45, 45);
+}
+.container2{
+    height: 300px;
+    width: 600px;
+    background:linear-gradient(rgb(36, 116, 153)30%,rgb(48, 28, 102));
+    margin-left: 800px;
+    margin-top: -460px;
+    border-radius: 10px;
+}
+
+#stats{
+    font-size: 30px;
+    font-family: algerian;
+    color: rgb(13, 13, 14);
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+#yourdata{
+    font-size: 30px;
+    font-family: cooperblack;
+    padding-left: 20px;
+    line-height: 39.5px;
+    color: white;
+
+
+}
